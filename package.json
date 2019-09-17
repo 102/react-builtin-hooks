@@ -1,6 +1,6 @@
 {
   "name": "react-builtin-hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React builtin hooks exported as separate module",
   "main": "index.js",
   "scripts": {},

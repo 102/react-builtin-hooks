@@ -30,6 +30,8 @@ declare export function useRef<T>(initialValue: T): {| current: T |};
 
 declare export function useDebugValue(value: any): void;
 
+declare type MaybeCleanUpFn = void | (() => void);
+
 declare export function useEffect(
   create: () => MaybeCleanUpFn,
   inputs: ?$ReadOnlyArray<mixed>
