@@ -1,12 +1,13 @@
 {
   "name": "react-builtin-hooks",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "React builtin hooks exported as separate module",
-  "main": "index.js",
+  "main": "es5.js",
   "scripts": {},
   "author": "Roman Gusev <rgusev2@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.8.0"
-  }
+  },
+  "devDependencies": {}
 }
